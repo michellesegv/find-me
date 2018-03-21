@@ -30,8 +30,8 @@ button{
 	text-align: center;
 	font-family: "Raleway";
 	background-color: #f7b617;
-	height: 10vh;
-	display: flex;
+	/* height: 10vh; */
+	/* display: flex; */
 	align-items: center;
 }   
 ::-webkit-input-placeholder {
@@ -47,6 +47,9 @@ input{
 }
 input:focus, button:focus{
 	outline: 0;
+}
+.mb {
+	margin: 1.5rem 0;
 }
 .none{
 	display: none !important;
